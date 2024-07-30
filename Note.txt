@@ -1,0 +1,10 @@
+aws s3 cp landing s3://duylk16/accelerometer/landing/ --recursive
+aws s3 cp landing s3://duylk16/customer/landing/ --recursive
+aws s3 cp landing s3://duylk16/step_trainer/landing/ --recursive
+
+
+select * from accelerometer_landing;
+
+select * from customer_landing;
+
+select * from step_trainer_landing;
